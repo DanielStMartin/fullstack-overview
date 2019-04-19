@@ -38,12 +38,13 @@ const initialState = {
 ```
 
 ## Backend
+
 ### Dependencies
--express
--express-session
--massive
--dotenv
--bcrypt
+- express
+- express-session
+- massive
+- dotenv
+- bcrypt
 
 ### Routes/Endpoints
 
@@ -64,7 +65,9 @@ const initialState = {
  -post: => /api/store
  -put: => /api/store/:id
  -delete: => /api/store:id
-###Database Schema
+
+### Database Schema
+
 - admin
 ```sql
 create table admin
@@ -73,7 +76,7 @@ username varchar(20) not null,
 password varchar(64),
 full_name text
  ```
- -product
+ - product
  ```sql
 create table products
 products_id serial primary key,
